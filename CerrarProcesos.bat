@@ -32,7 +32,7 @@ goto :Menu
 cls
 color 5F
 taskkill /im iexplore.exe /f /t
-echo Presione una tecla para recgresar al menu
+echo Presione una tecla para regresar al menu
 pause>null
 goto :Menu
 :Exit
