@@ -41,12 +41,14 @@ goto :Menu
 :JavaExecute
 cls
 color 5F
+taskkill /im javaw.exe /f /t
 taskkill /im jucheck.exe /f /t
 taskkill /im jusched.exe /f /t
 taskkill /im soffice.bin /f /t
 taskkill /im soffice.exe /f /t
 echo Presione una tecla para regresar al menu
 pause>null
+goto :Menu
 :Exit
 echo Para salir presiona una tecla.
 pause>nul
