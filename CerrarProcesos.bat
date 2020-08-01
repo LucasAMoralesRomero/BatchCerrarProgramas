@@ -21,7 +21,8 @@ if %var%==1 goto :Ifrun
 if %var%==2 goto :Iexplore
 if %var%==3 goto :JavaExecute
 if %var%==4 goto :Exit
-if %var% GTR 4 echo Error
+if %var% GTR 4 echo Error funcion no disponible
+pause>null
 goto :Menu
 :Ifrun
 cls
