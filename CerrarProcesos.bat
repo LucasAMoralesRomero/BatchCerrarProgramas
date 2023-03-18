@@ -12,7 +12,7 @@ echo ======================================================
 echo Seleccione la opcion deseada:
 echo.
 echo 1. Cerrar Ifrun (GDM, Etiquetas y Motor DB)
-echo 2. Cerrar Internet Explorer (en caso de error Electro)
+echo 2. Cerrar Geolocalizador (en caso de error Electro - Servicio Tecnico)
 echo 3. Cerrar programas para abrir GESCOM (Jusched, Jucheck, Soffice.bin, Soffice.exe)
 echo 4. Cerrar Programa
 echo.
@@ -36,6 +36,7 @@ goto :Menu
 cls
 color 5F
 taskkill /im iexplore.exe /f /t
+taskkill /im NormalizadorGeoUbicacion.exe /f /t
 echo Presione una tecla para regresar al menu
 pause>null
 goto :Menu
