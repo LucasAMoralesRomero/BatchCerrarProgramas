@@ -17,7 +17,11 @@ Este es un script Batch para Windows que te permite terminar procesos en caso de
 
 ## Contribuciones
 
-Si tienes sugerencias o mejoras para este script, ¡no dudes en contribuir! Tu ayuda es bienvenida.
+| :warning: Alerta: Este proyecto está en desarrollo          |
+|:---------------------------|
+| Si tienes sugerencias o mejoras para este script, ¡no dudes en contribuir! Tu ayuda es bienvenida.
+
+
 
 ## Licencia
 
