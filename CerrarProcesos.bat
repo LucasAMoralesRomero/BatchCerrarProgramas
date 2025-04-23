@@ -58,6 +58,8 @@ goto :Menu
 cls
 color 5f
 taskkill /im ServicioTecnico.exe /f /t
+taskkill /im ServicioTecnico2025.exe /f /t
+taskkill /im ServicioTecnico-.exe /f /t
 echo Presione una tecla para regresar al menu
 pause>null
 goto :Menu
